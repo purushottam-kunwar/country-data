@@ -13,26 +13,26 @@
 
 | Field | Type | Description |
 |-------|------|-------------|
-| Country Name | string | Official country name |
-| Country Code | string (ISO2) | 2-letter country code |
-| Phone Code | string | International dialing code with + prefix |
-| Currency | string | Primary currency name |
-| Currency Code | string | 3-letter currency code |
-| Currency Symbol | string | Currency symbol |
-| Flag | string | Emoji flag or image path |
+| country_name | string | Official country name |
+| country_code | string (ISO2) | 2-letter country code |
+| phone_code | string | International dialing code with + prefix |
+| currency | string | Primary currency name |
+| currency_code | string | 3-letter currency code |
+| currency_symbol | string | Currency symbol |
+| flag | string | Emoji flag or image path |
 
 ## Usage
 
 ### Direct JSON Access
 ```json
 {
-  "Country Name": "United States",
-  "Country Code": "US",
-  "Phone Code": "+1",
-  "Currency": "Dollar",
-  "Currency Code": "USD",
-  "Currency Symbol": "$",
-  "Flag": "🇺🇸"
+  "country_name": "United States",
+  "country_code": "US",
+  "phone_code": "+1",
+  "currency": "Dollar",
+  "currency_code": "USD",
+  "currency_symbol": "$",
+  "flag": "🇺🇸"
 }
 ```
 
@@ -59,4 +59,3 @@ Please open an issue to:
 - Report data inaccuracies
 - Suggest additional fields
 - Propose format improvements
-```
