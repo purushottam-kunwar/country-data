@@ -34,6 +34,29 @@
   "Currency Symbol": "$",
   "Flag": "🇺🇸"
 }
+```
 
-## License  
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/country-data.git
+```
+
+2. Use in your project:
+```javascript
+const countries = require('./country-data/data/merged_countries.json');
+```
+
+## Data Sources
+- Primary data from [REST Countries API](https://restcountries.com)
+- Enhanced with currency/phone code data from [GeoNames](https://www.geonames.org)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+Please open an issue to:
+- Report data inaccuracies
+- Suggest additional fields
+- Propose format improvements
+```
